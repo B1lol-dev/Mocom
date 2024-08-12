@@ -62,6 +62,13 @@ a {
   color: #000000;
 }
 
+header {
+  position: fixed;
+  max-width: 100%;
+  width: 100%;
+  background: #FFFFFF;
+  z-index: 100;
+}
 header .container .navbar {
   display: flex;
   align-items: center;
@@ -654,6 +661,12 @@ footer .container .footer_content .footer_social li {
   .products .container .products_content .product_wrapper .product_card .pr_card_img img {
     max-width: 100%;
     max-height: 100%;
+  }
+  .hero .container .hero_content .hero_text h2 {
+    line-height: 150px;
+  }
+  .hero .container .hero_content .hero_text h1 {
+    line-height: 70px;
   }
   footer .container .footer_content {
     flex-direction: column;
