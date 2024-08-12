@@ -167,6 +167,25 @@
         }
     }
 
+    .hero{
+
+        .container{
+
+            .hero_content{
+
+                .hero_text{
+                    h2{
+                        line-height: 150px;
+                    }
+
+                    h1{
+                        line-height: 70px;
+                    }
+                }
+            }
+        }
+    }
+
     footer{
 
         .container{
