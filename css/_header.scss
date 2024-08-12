@@ -1,4 +1,9 @@
 header{
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+    background: $text_white;
+    z-index: 100;
 
     .container{
 
