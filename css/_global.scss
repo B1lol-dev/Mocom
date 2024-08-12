@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+.container{
+    max-width: 1286px;
+    width: 100%;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.line{
+    width: 23px;
+    height: 79px;
+    border-radius: 10px;
+    background: $bg_line;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.line_title{
+    margin-top: 33px;
+    color: $text_pr;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: center;
+}
+
+.page_title{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: $text_pr;
+}

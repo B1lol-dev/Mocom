@@ -1,0 +1,79 @@
+.hero{
+    padding-block: 200px 180px;
+
+    .container{
+
+        .hero_content{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .hero_text{
+
+                h3{
+                    font-family: Lilita One;
+                    font-size: 64px;
+                    font-weight: 400;
+                    line-height: 40px;
+                    text-align: left;
+                    color: $text_pr;
+                }
+
+                h2{
+                    font-family: Lalezar;
+                    font-size: 96px;
+                    font-weight: 400;
+                    line-height: 170px;
+                    text-align: left;
+                    color: #F42D2D;
+                }
+
+                h1{
+                    font-family: Lalezar;
+                    font-size: 96px;
+                    font-weight: 400;
+                    line-height: 50px;
+                    text-align: left;
+                    color: $text_sc;
+                }
+
+                a{
+                    button{
+                        font-family: Lalezar;
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 37.61px;
+                        text-align: center;
+                        color: $text_white;
+                        
+                        padding: 14px 38px;
+                        margin-top: 45px;
+                        background: $bg_sc;
+                        border: none;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        transition: .2s ease-out;
+
+                        &:hover{
+                            color: $text_sc;
+                            background: none;
+                            outline: 3px solid $bg_sc;
+                        }
+                        &:active{
+                            transform: scale(95%);
+                        }
+                    }
+                }
+            }
+
+            .hero_img{
+                max-width: 518px;
+                width: 100%;
+
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

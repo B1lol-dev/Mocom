@@ -1,0 +1,137 @@
+.about{
+
+    .container{
+
+        .about_content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .line{
+                margin-left: 0%;
+                transform: translateX(0%);
+            }   
+
+            .about_title{
+                font-family: Lalezar;
+                font-size: 48px;
+                font-weight: 400;
+                line-height: 60px;
+                text-align: center;
+                color: $text_about_title;
+                max-width: 908px;
+                padding-top: 27px;
+            }
+
+            .about_subtitle{
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 19.36px;
+                text-align: left;
+                color: $text_pr;
+                padding-top: 68px;
+            }
+
+            .about_img1{
+                max-width: 100%;
+                padding-top: 80px;
+            }
+
+            .about_wrapper{
+                position: relative;
+                max-width: 100%;
+                width: 100%;
+                padding-top: 237px;
+                display: flex;
+
+
+                .about_main{
+                    display: flex;
+                    align-items: center;
+                    gap: 75px;
+                    background: $bg_card;
+                    padding: 22px 33px;
+                    max-width: 1135px;
+                    width: 100%;
+                    border-radius: 20px;
+                    margin-bottom: 25px;
+
+                    .about_text{
+
+                        h2{
+                            font-family: Lalezar;
+                            font-size: 48px;
+                            font-weight: 400;
+                            line-height: 60px;
+                            text-align: left;
+                            color: $text_sc;
+                            max-width: 633px;
+                        }
+    
+                        p{
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-weight: 300;
+                            line-height: 19.36px;
+                            text-align: left;
+                            color: $text_pr;
+                            max-width: 648px;
+                        }
+    
+                        span{
+                            font-family: Inter;
+                            font-size: 16px;
+                            text-align: left;
+                            color: $text_pr;
+                        }
+    
+                        button{
+                            font-family: Lalezar;
+                            font-size: 20px;
+                            font-weight: 400;
+                            line-height: 31.34px;
+                            text-align: center;
+                            color: $text_white;
+                            margin-top: 19px;
+                            padding: 14px 29px;
+                            background: $bg_sc;
+                            border: none;
+                            border-radius: 20px;
+                            cursor: pointer;
+                            transition: .2s ease-in-out;
+    
+                            &:hover{
+                                color: $text_sc;
+                                background: none;
+                                outline: 2px solid $bg_sc;
+                            }
+                            &:active{
+                                transform: scale(95%);
+                            }
+                        }
+                    }
+
+                    .about_img{
+                        max-width: 320px;
+
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .about_item{
+                    position: absolute;
+                    max-width: 532px;
+                    max-height: 532px;
+                    height: 100%;
+                    width: 100%;
+                    right: 0;
+                    bottom: 0;
+                    background: $bg_cube;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}

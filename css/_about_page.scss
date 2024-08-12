@@ -1,0 +1,28 @@
+.about_page{
+    padding-block: 68px 69px;
+
+    .container{
+
+        img{
+            max-width: 1193px;
+            width: 100%;
+        }
+
+        p{
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 19.36px;
+            text-align: left;
+            color: $text_pr;
+        }
+
+        .text_after_img{
+            padding-block: 69px 51px;
+        }
+
+        .text_after_title{
+            padding-block: 19px 51px;
+        }
+    }
+}
